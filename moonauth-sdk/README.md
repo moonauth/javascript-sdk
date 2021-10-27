@@ -1,0 +1,1 @@
+A NodeJS wrapper for the Moonauth RESTful API
