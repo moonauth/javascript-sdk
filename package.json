@@ -3,18 +3,22 @@
   "version": "1.0.0",
   "description": "A NodeJS wrapper for the Moonauth RESTful API",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moonauth/SDK-NodeJS.git"
+    "url": "git+https://github.com/moonauth/javascript-sdk.git"
   },
   "keywords": [],
   "author": "Dominik Gralka",
   "license": "Do No Harm",
   "bugs": {
-    "url": "https://github.com/moonauth/SDK-NodeJS/issues"
+    "url": "https://github.com/moonauth/javascript-sdk/issues"
   },
-  "homepage": "https://github.com/moonauth/SDK-NodeJS#readme"
+  "homepage": "https://github.com/moonauth/javascript-sdk#readme",
+  "dependencies": {
+    "node-fetch": "^3.1.0"
+  }
 }
